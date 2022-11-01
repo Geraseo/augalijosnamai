@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Misku Nauda</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- container start -->
+    <div class="container-fluid h-100 w-100 gx-0">
+      <!-- nav bar start -->
+      <div class="navodiv h-15">
+        <div id="nav-placeholder" class="h-100"></div>
+
+        <script>
+          $(function () {
+            $("#nav-placeholder").load("nav.html", function () {
+              $("#miskunauda").addClass("active");
+            });
+          });
+        </script>
+      </div>
+      <!-- nav bar end ^-->
+
+      <!-- mainas start -->
+      <div
+        id="h-lg-85"
+        class="h-85 container-fluid w-100 my-4 px-lg-4 my-lg-0 mt-lg-4"
+      >
+        <div class="row gx-0 h-50">
+          <div class="col-12 h-85 w-100 centras">
+            <img
+              src="./img/forestcover.jpeg"
+              alt=""
+              width="100%"
+              height="100%"
+              style="object-fit: cover"
+            />
+          </div>
+        </div>
+
+        <div class="row mt-2 gx-0 h-50">
+          <div class="col-12 col-lg-6 mb-4 mb-lg-0 px-5">
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              aliquid ullam necessitatibus fugit dolorem temporibus perferendis
+              libero quasi mollitia. Earum nam porro totam omnis incidunt nihil
+              veritatis saepe? Tempora nostrum, magni, quis aut molestias nemo
+              dicta temporibus sed ipsum quibusdam sunt quo quidem obcaecati,
+              omnis ut atque velit iure? Voluptas eos totam est earum
+              recusandae, labore asperiores neque dolorum rem facilis,
+              dignissimos iusto, debitis tenetur repudiandae odio doloremque
+              natus possimus vitae cum soluta magni nobis ad libero! Aliquam
+              rerum expedita cum pariatur commodi fugiat provident. Provident
+              asperiores omnis modi, labore nostrum eveniet minus nemo, enim ut
+              officiis dicta dignissimos suscipit.
+            </p>
+          </div>
+          <div class="col-12 col-lg-6 px-5">
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              quibusdam magni cupiditate id ipsam placeat eveniet illum ad ut
+              velit incidunt doloribus error aperiam minus odit, pariatur,
+              labore perspiciatis corporis quia. Cum aliquid deleniti expedita
+              tempore vero eos sit ea quae dolorem quis nesciunt rem cumque quo
+              excepturi, reprehenderit explicabo distinctio atque, illum quod,
+              repudiandae dignissimos ipsam facilis? Asperiores id aperiam
+              exercitationem deleniti eos, ullam autem magnam quae molestias
+              quidem nesciunt delectus corrupti, tempora, laborum minus
+              provident ad perspiciatis praesentium corporis aspernatur optio
+              quos ipsum nulla. Ad quas recusandae illo.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- mainas end ^ -->
+    </div>
+    <!-- container end ^-->
+    <!-- Bootstrap start-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap end -->
+  </body>
+</html>
